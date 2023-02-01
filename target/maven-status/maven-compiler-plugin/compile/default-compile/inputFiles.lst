@@ -1,0 +1,15 @@
+/Users/borissmets/Public/work/4-cours/exedCentraleNantes/session3-J2EE/firstJ2EE 2/src/main/java/com/freestack/helloworld/youtube/models/Channel.java
+/Users/borissmets/Public/work/4-cours/exedCentraleNantes/session3-J2EE/firstJ2EE 2/src/main/java/com/freestack/helloworld/VideoServlet.java
+/Users/borissmets/Public/work/4-cours/exedCentraleNantes/session3-J2EE/firstJ2EE 2/src/main/java/com/freestack/helloworld/UserServlet.java
+/Users/borissmets/Public/work/4-cours/exedCentraleNantes/session3-J2EE/firstJ2EE 2/src/main/java/com/freestack/helloworld/youtube/models/User.java
+/Users/borissmets/Public/work/4-cours/exedCentraleNantes/session3-J2EE/firstJ2EE 2/src/main/java/com/freestack/helloworld/youtube/apis/UserApi.java
+/Users/borissmets/Public/work/4-cours/exedCentraleNantes/session3-J2EE/firstJ2EE 2/src/main/java/com/freestack/helloworld/youtube/exceptions/RegisterException.java
+/Users/borissmets/Public/work/4-cours/exedCentraleNantes/session3-J2EE/firstJ2EE 2/src/main/java/com/freestack/helloworld/youtube/exceptions/ForbiddenException.java
+/Users/borissmets/Public/work/4-cours/exedCentraleNantes/session3-J2EE/firstJ2EE 2/src/main/java/com/freestack/helloworld/youtube/models/Visitor.java
+/Users/borissmets/Public/work/4-cours/exedCentraleNantes/session3-J2EE/firstJ2EE 2/src/main/java/com/freestack/helloworld/LoginServlet.java
+/Users/borissmets/Public/work/4-cours/exedCentraleNantes/session3-J2EE/firstJ2EE 2/src/main/java/com/freestack/helloworld/youtube/models/Like.java
+/Users/borissmets/Public/work/4-cours/exedCentraleNantes/session3-J2EE/firstJ2EE 2/src/main/java/com/freestack/helloworld/youtube/exceptions/LoginException.java
+/Users/borissmets/Public/work/4-cours/exedCentraleNantes/session3-J2EE/firstJ2EE 2/src/main/java/com/freestack/helloworld/youtube/models/Video.java
+/Users/borissmets/Public/work/4-cours/exedCentraleNantes/session3-J2EE/firstJ2EE 2/src/main/java/com/freestack/helloworld/youtube/models/Creator.java
+/Users/borissmets/Public/work/4-cours/exedCentraleNantes/session3-J2EE/firstJ2EE 2/src/main/java/com/freestack/helloworld/youtube/models/Category.java
+/Users/borissmets/Public/work/4-cours/exedCentraleNantes/session3-J2EE/firstJ2EE 2/src/main/java/com/freestack/helloworld/youtube/apis/VideoApi.java

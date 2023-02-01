@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [31/Jan/2023:10:54:27 +0100] "GET /firstJ2EE HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [31/Jan/2023:10:54:27 +0100] "GET /firstJ2EE/ HTTP/1.1" 200 488 http-bio-8080-exec-3 29
+0:0:0:0:0:0:0:1 - - [31/Jan/2023:10:56:07 +0100] "GET /firstJ2EE/ HTTP/1.1" 200 488 http-bio-8080-exec-1 47
+0:0:0:0:0:0:0:1 - - [31/Jan/2023:10:56:08 +0100] "GET /firstJ2EE/ HTTP/1.1" 200 488 http-bio-8080-exec-3 1
+0:0:0:0:0:0:0:1 - - [31/Jan/2023:10:56:11 +0100] "GET /firstJ2EE%203 HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [31/Jan/2023:10:56:20 +0100] "POST /firstJ2EE/userServlet HTTP/1.1" 200 396 http-bio-8080-exec-5 27
+0:0:0:0:0:0:0:1 - - [31/Jan/2023:10:56:23 +0100] "POST /firstJ2EE/loginServlet HTTP/1.1" 200 462 http-bio-8080-exec-6 2
+0:0:0:0:0:0:0:1 - - [31/Jan/2023:10:56:26 +0100] "POST /firstJ2EE/loginServlet HTTP/1.1" 200 462 http-bio-8080-exec-7 1
+0:0:0:0:0:0:0:1 - - [31/Jan/2023:10:56:38 +0100] "POST /firstJ2EE/userServlet HTTP/1.1" 200 565 http-bio-8080-exec-8 2
+0:0:0:0:0:0:0:1 - - [31/Jan/2023:10:56:44 +0100] "POST /firstJ2EE/userServlet HTTP/1.1" 500 1849 http-bio-8080-exec-9 9
+0:0:0:0:0:0:0:1 - - [31/Jan/2023:10:56:59 +0100] "POST /firstJ2EE/userServlet HTTP/1.1" 200 396 http-bio-8080-exec-2 2
+0:0:0:0:0:0:0:1 - - [31/Jan/2023:10:57:07 +0100] "POST /firstJ2EE/loginServlet HTTP/1.1" 200 341 http-bio-8080-exec-1 6
+0:0:0:0:0:0:0:1 - - [31/Jan/2023:10:57:12 +0100] "POST /firstJ2EE/videoServlet HTTP/1.1" 200 699 http-bio-8080-exec-1 57
+0:0:0:0:0:0:0:1 - - [31/Jan/2023:10:57:15 +0100] "GET /firstJ2EE/video.jsp?url=https://b3log.org/vditor/&title=dede HTTP/1.1" 200 401 http-bio-8080-exec-1 10
+0:0:0:0:0:0:0:1 - - [31/Jan/2023:10:57:20 +0100] "GET /firstJ2EE/upload.jsp HTTP/1.1" 200 341 http-bio-8080-exec-1 1
