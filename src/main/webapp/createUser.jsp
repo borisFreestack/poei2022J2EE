@@ -32,5 +32,7 @@
 	</div>
 	<button type="submit">Envoyer</button>
 </form>
+
+<a href="userServlet"> liste des utilisateurs </a>
 </body>
 </html>

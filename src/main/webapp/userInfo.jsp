@@ -10,30 +10,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-	<title>User info</title>
+	<title>User info from dispatch</title>
 </head>
 <body>
 
-Prénom <%= request.getParameter("firstName")%>
-<% if (request.getParameter("gender").equals("homme")) { %>
-Monsieur
-<%} else if (request.getParameter("gender").equals("femme")) {%>
-Madame
-<% } %>
-<%= request.getParameter("lastName")%>
+User <%= request.getAttribute("user")%>
 
-Date de naissance <%= request.getParameter("birthDate")%>
-<%
-	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-	Date date = sdf.parse(request.getParameter("birthDate"));
-	Calendar eighteenYearsAgo = Calendar.getInstance();
-	eighteenYearsAgo.add(Calendar.YEAR, -18);
-%>
-<%if (!eighteenYearsAgo.getTime().after(date)) { %>
-Interdit au moins de 18 ans
-<% } else { %>
-Accès autorisé
-<%}%>
-
+<a href="userServlet"> liste des utilisateurs </a>
 </body>
 </html>
