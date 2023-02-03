@@ -11,7 +11,7 @@
 	<title>Creation utilisateur</title>
 </head>
 <body>
-<form method="post" action="userInfo.jsp">
+<form method="post" action="userServlet">
 	<div>
 		<input type="text" name="firstName"> prenom
 	</div>
