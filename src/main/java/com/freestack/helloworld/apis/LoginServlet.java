@@ -11,30 +11,28 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet(value = "/userServlet")
-public class UserServlet extends HttpServlet {
+@WebServlet(value = "/loginServlet")
+public class LoginServlet extends HttpServlet {
 
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse resp)
 	throws ServletException, IOException {
-		String firstName = request.getParameter("firstName");
-		String lastName = request.getParameter("lastName");
-		String birthDate = request.getParameter("birthDate");
-		String genre = request.getParameter("gender");
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 
-		User newUser = new User(username, password, firstName, lastName, birthDate, genre);
-
 		try {
-			UserApi.register(newUser);
+
+			User authenticatedUser = UserApi.authenticate(username, password);
 			RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/userInfo.jsp");
-			request.setAttribute("user", newUser);
+			request.getSession().setAttribute("authenticatedUser", authenticatedUser);
 			dispatcher.forward(request, resp);
-		} catch (RegisterException e) {
-			resp.getWriter().println("Un utilisiteur avec ce pseudonyme existe déjà!");
-			resp.getWriter().close();
-			resp.setStatus(409);
+
+		} catch (Exception e) {
+
+			RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/login.jsp");
+			request.setAttribute("errorMessage", e.getMessage());
+			dispatcher.forward(request, resp);
+
 		}
 	}
 

@@ -9,8 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="HelloWorldJavaEE" />
         <module name="firstJ2EE" />
+        <module name="j2ee" />
         <module name="firstJ2EE 2" />
-        <module name="endJ2EE" />
       </profile>
     </annotationProcessing>
   </component>

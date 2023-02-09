@@ -10,11 +10,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-	<title>User info from dispatch</title>
+	<title>User info after login</title>
 </head>
 <body>
 
-User <%= request.getAttribute("user")%>
+User <%= request.getSession().getAttribute("authenticatedUser")%>
 
 <a href="userServlet"> liste des utilisateurs </a>
 </body>

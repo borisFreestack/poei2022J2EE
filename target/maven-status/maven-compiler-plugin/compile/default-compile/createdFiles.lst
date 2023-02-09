@@ -1,12 +1,5 @@
-com/freestack/helloworld/youtube/exceptions/LoginException.class
-com/freestack/helloworld/youtube/exceptions/RegisterException.class
-com/freestack/helloworld/youtube/models/Category.class
-com/freestack/helloworld/youtube/apis/VideoApi.class
-com/freestack/helloworld/youtube/models/Visitor.class
-com/freestack/helloworld/youtube/models/Like.class
-com/freestack/helloworld/youtube/exceptions/ForbiddenException.class
-com/freestack/helloworld/youtube/models/Creator.class
-com/freestack/helloworld/youtube/apis/UserApi.class
-com/freestack/helloworld/youtube/models/Channel.class
-com/freestack/helloworld/youtube/models/Video.class
-com/freestack/helloworld/youtube/models/User.class
+com/freestack/helloworld/apis/exception/RegisterException.class
+com/freestack/helloworld/apis/UserServlet.class
+com/freestack/helloworld/apis/User.class
+com/freestack/helloworld/apis/LoginServlet.class
+com/freestack/helloworld/apis/UserApi.class

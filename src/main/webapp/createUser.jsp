@@ -19,6 +19,12 @@
 		<input type="text" name="lastName"> nom
 	</div>
 	<div>
+		<input type="text" name="username"> identifiant
+	</div>
+	<div>
+		<input type="text" name="password"> mot de passe
+	</div>
+	<div>
 		<input type="date" name="birthDate"> date de naissance
 	</div>
 	<div>
